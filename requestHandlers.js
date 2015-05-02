@@ -1,4 +1,4 @@
-var querystring = requite("querystring");
+var querystring = require("querystring");
 
 function start(response, postData) {
 	console.log("Request handler 'start' was called.");
